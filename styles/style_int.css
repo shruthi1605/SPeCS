@@ -1,0 +1,166 @@
+/*----------header---------------  */
+
+.head {
+	background-color:black;
+	height: 60px;
+	overflow: hidden;
+}
+
+.brand{
+	text-decoration: none;
+               position: absolute;
+                font-size: 40px;
+               color: white;
+               padding:0 5px 5px 10px;
+               display: block; 	
+}
+.brand:hover
+{
+	text-decoration: none;
+}
+
+.ls{
+	list-style-type: none;
+	position:relative;
+	display: inline;
+	padding:0;
+	margin: 0;
+	overflow:hidden;
+	
+	
+}
+/* --------------profile/logout------------  */
+.dropbtn ,.dropout
+{
+
+	text-decoration: none;
+	display:inline-block;
+	
+	padding:5px 15px 5px 15px;
+	float: right;
+    /*letter-spacing: 2px;*/
+    color: #e0e0d1;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	height:60px;
+	
+}
+.dropbtn:hover,.dropout:hover{
+	color: white;
+	text-decoration: none;
+}
+/*-------------------Profile body--------------*/
+
+.table-condensed
+{
+
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 60px;
+    float: none;
+
+}
+
+.table-condensed td
+{
+	font-size: 20px;
+
+	
+}
+
+.table-condensed tr
+{
+	
+	 border-top: 1px solid rgb(221, 221, 221);
+	 margin-top: 15px;
+	 padding-top: 10px;
+}
+
+#pro
+{
+	text-align:center;
+	 margin-top:50px;
+}
+
+ .btn-info
+{
+	
+	
+	margin-top: 40px;
+	margin-left: 850px;
+}
+
+#editpro
+{
+	text-align:center;
+	 margin-top:50px;
+}
+
+#bck
+{
+	text-align:right;
+	 margin-top:50px;
+	 margin-left: 300px;
+	 text-decoration: none;
+	 text-transform: uppercase;
+}
+
+.form-group
+{
+	margin-top: 30px;
+}
+
+#save
+{
+	margin-left: 900px;
+	
+}
+
+/*------------------Project category----------------------*/
+
+#mytable
+{
+	margin-top: 60px;
+	margin-left: 300px;
+}
+
+#cat
+{
+	letter-spacing: 2px;
+	font-weight: 90%;
+	font-size: 20px;
+}
+
+#cat-head
+{
+	letter-spacing: 2px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 50px;
+}
+
+#gly
+{
+	margin-left: 20px;
+
+}
+
+#block
+{
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 16px;
+}
+
+#blockbtn
+{
+	margin-top: 100px;
+	margin-left: 180px;
+}
+
+#add_new{
+	
+	background-color: #535459;
+	border-radius:25px; 
+}

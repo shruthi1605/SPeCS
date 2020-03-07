@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SPeCS Home</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">	
+
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="styles/style_fpg.css">
+	
+
+
+</head>
+
+<body>
+
+<header>
+<div class="navbar navbar-inverse " role="navigation" id="navig">
+	<div class="container-fluid">
+		<div class="navbar-header">
+    		
+    		<a class="navbar-brand" href="spec_home.html">SPeCS</a>
+    	</div>
+    	<div >
+    	<ul class="nav navbar-nav navbar-right" >
+    		<li class="ls" ><a id="link1"  href="PHP/signup.html">Signup</a></li>
+    		<li class="ls" ><a  id ="link2" href="PHP/login.html">Login</a></li>
+    	</ul>
+    	</div>
+    </div>
+</div>
+</header> 
+
+<!-------------------------------------------------------------------->
+
+	<div class="fpg_body">
+	<div class="intro">
+	<div class="row">
+<div class="col-lg-12">
+		<p style="text-align: left;"><strong>SPeCS </strong>- Student Project eCatalogue System - is a portal that enables the student community to showcase their academic IT project experience to the hiring managers. </p>
+
+		<p style="text-align: left;">This portal stores all projects details of a student that he/she has undertaken either part of academic curriculum or driven by passion to develop IT applications.</p>
+
+		<p style="text-align: left;">If you are a first time student user to this portal, kindly <u>signup</u> to create your profile and add your project details.</p> 
+
+		<p style="text-align: left;">If you a hiring manager, you can <strong>search</strong> on a term - student name, project title, domain, technology, programming language etc - to view the project details of the application details developed by the student. While viewing the project details, kindly remember to <strong>RATE</strong> the project as well.</p>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-lg-8">
+			<span id="search">SEARCH</span>
+	</div>
+	</div>	
+		
+
+		<div class="wrapper">
+		<div class="ui-widget">
+		<form method="post" id="sear" action="ternary/search.php">
+		   <input class="fpg_search_proj_catg" placeholder=" Enter a search term..." type="search"  name="keyword" id="explore" ng-model="term">
+		   <div id="sb" style="position:absolute; bottom: 170px;left:390px;" ></div> 
+		        <div class="inner-addon right-addon">
+		          
+		            <button id="search_button" class="btn btn-default" type="submit" value="Search" name="go" >
+		            	<span class="glyphicon glyphicon-search"></span>
+		              </button>     
+		            
+		        </div>
+		        </form>
+		</div>
+	</div>
+	</div>
+
+<div class="footer-bottom">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="footer">
+	 &#169; 2017. SPeCS - Student Project eCatalogue System - portal is developed by SHRUTHI. All Rights Reserved. All Trademarks are acknowledged.
+</div>
+</div>	
+</div>
+</div>
+</div>
+
+<!-------------JS------------------------>
+
+<script >
+	
+	/*$(document).ready(function(){
+		console.log("YES");
+		$('#sear').submit(function(e){
+		console.log("OK");
+		$.ajax({
+		type: "POST",
+		url: "ternary/sort_by_rate.php",
+		data:'keyword='+$("#explore").val(),
+		
+		
+		error: function(xhr, desc, err) {
+      console.warn(xhr.responseText)
+        console.log(xhr);
+        console.log("Details: " + desc + "\nError:" + err);
+      }
+		});
+		e.preventDefault();
+	});
+
+	});*/
+
+</script>
+</body>
+</html>
